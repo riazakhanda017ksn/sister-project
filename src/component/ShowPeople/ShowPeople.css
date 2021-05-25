@@ -23,6 +23,7 @@ span.right-arrow {
     color: #e43aaaeb;
     transition: .3s;
     position: relative;
+    cursor: pointer;
 }
 .sticker span::before {
     content: "";
