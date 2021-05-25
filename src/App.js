@@ -12,9 +12,12 @@ const App = () => {
 
   return (
  
-    <div>
+    
       
       <Router>
+        
+          <Home></Home>
+   
       <Switch>
         <Route path="/home">
           <Home></Home>
@@ -22,7 +25,7 @@ const App = () => {
         
       </Switch>
   </Router>
-    </div>
+
  
 
   );

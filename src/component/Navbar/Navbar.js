@@ -1,13 +1,15 @@
 import React, { useContext, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 const Navbar = () => {
     
    
     return (
         
-<nav class='navbar navbar-expand-lg navbar-light sticky sticky-top'>
+<nav class='navbar navbar-expand-lg navbar-light sticky '>
   <div class="container">
     <a class="navbar-brand" href="#">
         <span className='mr-4'>Anima</span>

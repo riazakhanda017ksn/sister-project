@@ -1,0 +1,96 @@
+.card-background{
+    padding: 50px 0;
+    background: #0A0B1A;
+    object-fit: cover;
+}
+.people-card{
+    
+    border-radius: 7px;
+    position: relative;
+    
+}
+span.right-arrow {
+    display: inline-block;
+    font-size: 11px;
+    position: relative;
+    top: 1px;
+    left: 7px;
+    cursor: pointer;
+}
+.sticker span {
+    opacity: 0.6;
+    display: inline-block;
+    color: #e43aaaeb;
+    transition: .3s;
+    position: relative;
+}
+.sticker span::before {
+    content: "";
+    left: -9px;
+    top: 2px;
+    height: 81%;
+    width: 1px;
+    background: #ff00bf;
+    position: absolute;
+    opacity: 0.5;
+}
+.sticker span {
+    opacity: 0.6;
+    display: inline-block;
+    color: #e43aaaeb;
+    transition: .3s;
+}
+.sticker span:hover {
+    opacity: 1;
+    display: inline-block;
+    color: #fc044eeb;
+}
+.card img {
+    height: 250px;
+    width: 100%;
+}
+.people-card::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: 8px;
+    width: 100%;
+    height: 100%;
+    background: #2B2871;
+    border-radius: 7px;
+}
+
+.more-info a {
+    display: inline-block;
+    padding: 6px 0;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 500;
+    color: #524dcf!important;
+}
+.card {
+    border: none;
+    outline: none;
+    background: #111229;
+    color: #fafafa;
+    border-radius: 9px;
+}
+
+.title {
+    display: inline-block;
+    padding: 1px 9px;
+    background: goldenrod;
+    margin: 5px 0;
+    font-size: 10px;
+    color: #111;
+    font-weight: 600;
+}
+h5.card-title {
+    font-size: 16px;
+    padding-top: 7px;
+    font-weight: 700;
+}
+.need-space {
+    display: flex;
+    justify-content: space-between;
+}
