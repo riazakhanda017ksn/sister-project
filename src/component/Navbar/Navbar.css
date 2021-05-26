@@ -8,26 +8,32 @@ ul.navbar-nav.navbar-customize {
     
 }
 
-
-
+.navItem li a span {
+    display: inline-block;
+    padding: 0px 5px;
+}
 
 ul.navbar-nav.navbar-customize li a {
     text-decoration: none;
     display: inline-block;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
     color: #f9f9f9;
-    padding: 0 31px;
+    padding: 0 17px;
     transition: .4s;
     box-sizing: border-box;
-    
 }
+
+.navbar-brand img {
+    height: 32px;
+}
+
 .navbar-nav.navbar-customize{
     text-align: center;
 }
 ul.navbar-nav.navbar-customize li a:hover {
    color: rgb(255, 38, 0);
-   letter-spacing: 0.5px;
+   
 }
 span.mr-4 {
     display: inline-block;

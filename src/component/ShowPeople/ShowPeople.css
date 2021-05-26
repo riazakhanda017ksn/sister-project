@@ -1,6 +1,6 @@
 .card-background{
     padding: 50px 0;
-    background: #0A0B1A;
+    background: #070711;
     object-fit: cover;
 }
 .people-card{
@@ -8,6 +8,32 @@
     border-radius: 7px;
     position: relative;
     
+}
+.content-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    position: relative;
+}
+.view-all {
+    color: #daa625;
+    font-size: 15px;
+}
+.upcoming-show h1 {
+    color: #fafafa;
+    font-size: 33px;
+    font-weight: 600;
+    position: relative;
+}
+.upcoming-show::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 49px;
+    height: 6.7%;
+    width: 5%;
+    background: #403c9c;
+    border-radius: 17px;
 }
 span.right-arrow {
     display: inline-block;
@@ -72,7 +98,7 @@ span.right-arrow {
 .card {
     border: none;
     outline: none;
-    background: #111229;
+    background: #0c0d1dfc;
     color: #fafafa;
     border-radius: 9px;
 }

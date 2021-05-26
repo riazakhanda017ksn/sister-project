@@ -13,7 +13,21 @@ const SHowPeople = () => {
         <div className='card-background'>
         <div className="container">
             <div className="row">
-            <div className="col-lg-3">
+              <div className="content-flex">
+             <div className="upcoming-show">
+                 <h1>Upcoming Show</h1>
+             </div>
+             <div className="view-all">
+                 <p>View All</p>
+             </div>
+            </div>
+            <div className="row ">
+            </div>
+            
+                
+
+                
+            <div className="col-lg-3 mt-5">
             
                     <div className="people-card">
                     <div class="card" >
@@ -28,12 +42,13 @@ const SHowPeople = () => {
         <div className="sticker">
             <span><FontAwesomeIcon icon={faVrCardboard} /></span>
         </div>
-    </div>
+        </div>
+ 
   </div>
 </div>
                     </div>
                 </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 mt-5">
             
                     <div className="people-card">
                     <div class="card" >
@@ -53,7 +68,7 @@ const SHowPeople = () => {
 </div>
                     </div>
                 </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 mt-5">
             
                     <div className="people-card">
                     <div class="card" >
@@ -73,7 +88,7 @@ const SHowPeople = () => {
 </div>
                     </div>
                 </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 mt-5">
             
                     <div className="people-card">
                     <div class="card" >
